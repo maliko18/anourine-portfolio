@@ -10,12 +10,12 @@ const Header = () => {
         {/* {logo} */}
         <Link href="/">
           <h3 className="text-4xl mt-4 font-semibold">
-            Luke <span className="text-accent">.</span>
+            Abdelmalek <span className="text-accent">.</span>
           </h3>
         </Link>
 
         {/* {DESKTOP NAV & here me button } */}
-        <div className="hidden xl:flex mt-8 items-center gap-8 ">
+        <div className="hidden xl:flex xl:mt-4 items-center gap-8 ">
           <Nav />
           <Link href="/contact">
             <Button>Hire me</Button>
