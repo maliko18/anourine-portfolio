@@ -9,7 +9,7 @@ const Header = () => {
       <div className="container mx-auto flex justify-between item-center">
         {/* {logo} */}
         <Link href="/">
-          <h3 className="text-4xl mt-4 font-semibold">
+          <h3 className="text-4xl xl:mt-4 font-semibold">
             Abdelmalek <span className="text-accent">.</span>
           </h3>
         </Link>
