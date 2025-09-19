@@ -18,6 +18,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <script>(function(w, d) { w.CollectId = "68cd28d2db8b3d33fbab5b47"; var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.async=true; s.setAttribute("src", "https://collectcdn.com/launcher.js"); h.appendChild(s); })(window, document);</script>
       <body className={`${JetBrainsMono.variable} antialiased`}>
         <Header />
         <StairTransition/>
