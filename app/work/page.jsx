@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 
-import React, { useSate, useState } from "react";
+import React, {  useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 
